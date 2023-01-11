@@ -1,0 +1,9 @@
+// Home Assignment: Operators and Functions - Task 2
+
+function computeTip(totalBill){
+    tipAmount = totalBill * 0.1;
+    return tipAmount;
+}
+
+let tipTable01 = computeTip(100);
+console.log(tipTable01);

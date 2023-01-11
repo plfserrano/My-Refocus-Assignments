@@ -1,0 +1,24 @@
+// Home Assignment: Variables & Data Types - Task 1
+
+// Name of Member
+
+let memberName = "Sam";
+
+// Calories burned per hour
+
+let caloriesPerHalfHour = 450;
+
+// Number of Cycled Hours
+
+let cycledHours = 0.5;
+
+// Number of Cycled Days
+
+let cycledDays = 15;
+
+// Total Calories burned
+
+let totalCaloriesBurned = caloriesPerHalfHour * cycledHours * cycledDays;
+
+
+console.log(`Great work, ${memberName}! After ${cycledHours} hours of cycling every day for a week, you may lose a total of ${totalCaloriesBurned} calories.`);

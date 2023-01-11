@@ -1,0 +1,9 @@
+// Home Assignment: Variables and Data Types - Task 2
+
+let savingGoal = 10000;
+let savedAmount = 7500;
+
+let remainingAmount = savingGoal - savedAmount;
+let percentRemaining = (remainingAmount / savingGoal) * 100;
+
+console.log (`Thank you for your discipline and hardwork, Sam! You are now ${percentRemaining}% away from your goal of saving ₱ ${savingGoal}.`);
